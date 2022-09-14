@@ -1,0 +1,155 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.main-section{
+ width: 100%;
+ height: 100vh;
+ background-color: #000000;
+ overflow: hidden;
+}
+
+.d1{
+ width: 100%;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 200px;
+ animation:animatebottom1 2s
+}
+
+.im1{
+ position: absolute;
+ top: 50;
+ left: 50;
+ width: 200px;
+}
+
+.im2{
+ position: absolute;
+ top: 50;
+ left: 50;
+ width: 200px;
+ animation: rotation 5s infinite linear;
+ 
+}
+
+.im3{
+ position: absolute;
+ top: 50;
+ left: 50;
+ width: 200px;
+ animation: rotation 7s infinite linear;
+
+}
+
+.im4{
+ position: absolute;
+ top: 50;
+ left: 50;
+ width: 200px;
+ animation: rotation 10s infinite linear;
+ 
+}
+
+.d2{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 130px;
+ animation:animatebottom 3s
+ 
+}
+
+.d2 p{
+ color: #ffffff;
+ font-size: 16px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d3{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 50px;
+
+}
+
+.bar{
+ width: 1px;
+ height: 70px;
+ background-color: #ffffff;
+}
+
+.d4{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 50px;
+ animation:animatebottom 4s
+}
+
+#btn{
+ width: 11.11rem;
+ height: 4.11rem;
+ border-radius: 2.055rem;
+ cursor: pointer;
+ background-color: #ffffff;
+ color: #000000;
+ font-family: sans-serif;
+ transition: background-color 2s ease-out 100ms
+ 
+}
+
+#btn:hover {
+  background-color: #0b77fb;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+@keyframes animatebottom1{from{bottom:-50px;opacity:0} to{bottom:0;opacity:1}}
+
+/* Video page */
+
+.video-section{
+ width: 100%;
+ height: 100vh;
+ background-color: #941515;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+.video{
+ z-index: 100;
+}
+
+@media(min-aspect-ratio: 16/9){
+ .video{
+  width: 100%;
+  height: auto;
+ }
+}
+
+@media(max-aspect-ratio: 16/9){
+ .video{
+  width: auto;
+  height: 100%;
+ }
+}
