@@ -8,7 +8,7 @@ function count() {
   setTimeout(function () {
    sessionStorage.setItem("current", "true");
     window.location.replace("https://malkain.com/");
-  }, 16000);
+  }, 8000);
 }
 
 count();
