@@ -9,6 +9,10 @@
  height: 100vh;
  background-color: #000000;
  overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
 }
 
 .d1{
@@ -17,7 +21,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 200px;
+ padding-top: 100px;
  animation:animatebottom1 2s
 }
 
@@ -37,7 +41,7 @@
  
 }
 
-.im3{
+.im3{  
  position: absolute;
  top: 50;
  left: 50;
@@ -60,7 +64,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 130px;
+ padding-top: 150px;
  animation:animatebottom 3s
  
 }
@@ -91,24 +95,27 @@
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 50px;
+ padding-top: 100px;
  animation:animatebottom 4s
 }
 
 #btn{
- width: 11.11rem;
- height: 4.11rem;
- border-radius: 2.055rem;
+ border-radius: 24px;
+ font-size: 16px;
+ padding: 18px 33px 18px 33px;
  cursor: pointer;
  background-color: #ffffff;
+ font-weight: 600;
  color: #000000;
+ border: none;
  font-family: sans-serif;
  transition: background-color 2s ease-out 100ms
  
 }
 
 #btn:hover {
-  background-color: #0b77fb;
+  background-color: #4F95EB;
+  color: #ffffff;
 }
 
 @keyframes rotation {
