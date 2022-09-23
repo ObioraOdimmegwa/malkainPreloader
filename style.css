@@ -73,13 +73,13 @@
  padding-top: 150px;
  animation:animatebottom 3s;
  margin-top: 70px;
- margin-bottom: 70px;
+ margin-bottom: 50px;
  
 }
 
 .d2 p{
  color: #ffffff;
- font-size: 30px;
+ font-size: 50px;
  letter-spacing: 3px;
  font-family: 'salty';
 }
@@ -89,7 +89,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 100px;
+ padding-top: 0px;
  animation:animatebottom 4s
 }
 
